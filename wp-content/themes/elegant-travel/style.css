@@ -1,0 +1,227 @@
+/*
+Theme Name: Elegant Travel
+Theme URI: https://blossomthemes.com/wordpress-themes/elegant-travel/
+Template: blossom-floral  
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Elegant Travel is a multipurpose, easy to use and mobile-friendly travel blog theme. It is optimized to load fast and SEO optimized to help you rank better on search engines. With Elegant Travel, you can create website for any blogging niche, such as travel, lifestyle, fashion, food, fitness, journal, health, parenting, makeup, and several other types. In this theme, you can choose from unlimited colors and 1000+ Google fonts to change your website look and feel with a single click. With the Instagram section, you can flaunt your latest posts to increase your followers. The strategically placed newsletter helps you to generate more leads and grow your subscribers. This theme is also WooCommerce compatible so you can start an online shop. Elegant Travel is translation-ready, schema-friendly and RTL compatible. Check demo at https://blossomthemes.com/theme-demo/?theme=elegant-travel, read the documentation at https://docs.blossomthemes.com/elegant-travel/, and get support at https://blossomthemes.com/support-ticket/.
+Version: 1.0.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Requires at least: 4.7
+Requires PHP: 5.6
+Tested up to: 6.0
+Text Domain: elegant-travel
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+/*   ==================================================
+             break point
+    ================================================== */
+/*   ==================================================
+              color variable
+    ================================================== */
+:root {
+  --primary-color: #ebc6bf;
+  --primary-color-rgb: 235,198,191;
+  --secondary-color: #de9190;
+  --secondary-color-rgb: 222,145,144;
+  --font-color: #001A1A;
+  --font-color-rgb: 0,26,26;
+  --background-color: #fff;
+  --background-color-rgb: 255,255,255;
+  --white-color: #ffffff;
+  --white-color-rgb: 255,255,255;
+  --black-color: #000;
+  --black-color-rgb: 0,0,0;
+  --primary-font: Lora, serif;
+  --secondary-font: EB Garamond, serif;
+}
+
+/*   ==================================================
+          header
+================================================== */
+.site-header.style-two > .header-top .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header.style-two > .header-top .container .header-right {
+  grid-gap: 0;
+}
+.site-header.style-two > .header-top .container .secondary-nav > div {
+  right: 0;
+  left: unset;
+}
+.site-header.style-two > .header-main .main-navigation {
+  margin-right: 0;
+  width: auto;
+}
+.site-header.style-two > .header-main .main-navigation .nav-menu > li:not(.menu-item-has-children):last-child {
+  padding-right: 0;
+}
+.site-header.style-two .secondary-nav .nav-menu > li.menu-item-has-children > a::after {
+  content: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .site-header:not(.style-one, .style-three, .style-four, .style-six) .header-main .main-navigation .nav-menu > li:nth-last-child(3) .sub-menu li a::after,
+.site-header:not(.style-one, .style-three, .style-four, .style-six) .header-main .main-navigation .nav-menu > li:nth-last-child(2) .sub-menu li a::after,
+.site-header:not(.style-one, .style-three, .style-four, .style-six) .header-main .main-navigation .nav-menu > li:last-child .sub-menu li a::after {
+    transform: rotate(90deg);
+    top: 3px;
+  }
+}
+/*   ==================================================
+              banner
+    ================================================== */
+@media screen and (min-width: 1200px) {
+  .site-banner.slider-two .container {
+    max-width: 1615px;
+    padding: 0 25px;
+  }
+}
+.site-banner.slider-two .banner-wrapper {
+  padding-top: 60px;
+}
+.site-banner.slider-two .banner-wrapper .item {
+  position: relative;
+}
+.site-banner.slider-two .banner-wrapper .item .banner-caption {
+  padding: 45px 27px 0 27px;
+  max-width: 453px;
+  position: relative;
+  margin: -53px 35px 0 0;
+}
+.site-banner.slider-two .banner-wrapper .item .banner-caption .banner-title {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 992px) {
+  .site-banner.slider-two .banner-wrapper .item .banner-caption {
+    padding: 45px 42px 0 27px;
+    margin: -53px 55px 0 0;
+  }
+}
+.site-banner.slider-two .owl-carousel .owl-nav button.owl-prev,
+.site-banner.slider-two .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.site-banner.slider-two .owl-carousel .owl-nav button.owl-prev {
+  left: 0px;
+}
+.site-banner.slider-two .owl-carousel .owl-nav button.owl-next {
+  right: 0px;
+}
+@media (min-width: 1200px) {
+  .site-banner.slider-two .owl-carousel .owl-nav button.owl-prev {
+    left: -25px;
+  }
+  .site-banner.slider-two .owl-carousel .owl-nav button.owl-next {
+    right: -25px;
+  }
+}
+
+/*   ==================================================
+              blog layout
+    ================================================== */
+.search.list-layout-2 .site-main .page,
+.search.list-layout-2 .site-main .blossom-portfolio,
+.search.list-layout-2 .site-main .post,
+.archive.list-layout-2 .site-main .page,
+.archive.list-layout-2 .site-main .blossom-portfolio,
+.archive.list-layout-2 .site-main .post,
+.blog.list-layout-2 .site-main .page,
+.blog.list-layout-2 .site-main .blossom-portfolio,
+.blog.list-layout-2 .site-main .post {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .search.list-layout-2 .site-main .page,
+.search.list-layout-2 .site-main .blossom-portfolio,
+.search.list-layout-2 .site-main .post,
+.archive.list-layout-2 .site-main .page,
+.archive.list-layout-2 .site-main .blossom-portfolio,
+.archive.list-layout-2 .site-main .post,
+.blog.list-layout-2 .site-main .page,
+.blog.list-layout-2 .site-main .blossom-portfolio,
+.blog.list-layout-2 .site-main .post {
+    flex-direction: row;
+    grid-gap: 40px;
+  }
+  .search.list-layout-2 .site-main .page .post-thumbnail,
+.search.list-layout-2 .site-main .blossom-portfolio .post-thumbnail,
+.search.list-layout-2 .site-main .post .post-thumbnail,
+.archive.list-layout-2 .site-main .page .post-thumbnail,
+.archive.list-layout-2 .site-main .blossom-portfolio .post-thumbnail,
+.archive.list-layout-2 .site-main .post .post-thumbnail,
+.blog.list-layout-2 .site-main .page .post-thumbnail,
+.blog.list-layout-2 .site-main .blossom-portfolio .post-thumbnail,
+.blog.list-layout-2 .site-main .post .post-thumbnail {
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-bottom: 0;
+  }
+  .search.list-layout-2 .site-main .page .content-wrap,
+.search.list-layout-2 .site-main .blossom-portfolio .content-wrap,
+.search.list-layout-2 .site-main .post .content-wrap,
+.archive.list-layout-2 .site-main .page .content-wrap,
+.archive.list-layout-2 .site-main .blossom-portfolio .content-wrap,
+.archive.list-layout-2 .site-main .post .content-wrap,
+.blog.list-layout-2 .site-main .page .content-wrap,
+.blog.list-layout-2 .site-main .blossom-portfolio .content-wrap,
+.blog.list-layout-2 .site-main .post .content-wrap {
+    flex: 1;
+    margin: 10px 0;
+  }
+}
+.search.list-layout-2 .site-main .page .content-wrap .entry-title,
+.search.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-title,
+.search.list-layout-2 .site-main .post .content-wrap .entry-title,
+.archive.list-layout-2 .site-main .page .content-wrap .entry-title,
+.archive.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-title,
+.archive.list-layout-2 .site-main .post .content-wrap .entry-title,
+.blog.list-layout-2 .site-main .page .content-wrap .entry-title,
+.blog.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-title,
+.blog.list-layout-2 .site-main .post .content-wrap .entry-title {
+  margin-bottom: 20px;
+}
+.search.list-layout-2 .site-main .page .content-wrap .entry-footer,
+.search.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-footer,
+.search.list-layout-2 .site-main .post .content-wrap .entry-footer,
+.archive.list-layout-2 .site-main .page .content-wrap .entry-footer,
+.archive.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-footer,
+.archive.list-layout-2 .site-main .post .content-wrap .entry-footer,
+.blog.list-layout-2 .site-main .page .content-wrap .entry-footer,
+.blog.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-footer,
+.blog.list-layout-2 .site-main .post .content-wrap .entry-footer {
+  margin-top: 20px;
+}
+.search.list-layout-2 .site-main .page .content-wrap .entry-footer .button-wrap,
+.search.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-footer .button-wrap,
+.search.list-layout-2 .site-main .post .content-wrap .entry-footer .button-wrap,
+.archive.list-layout-2 .site-main .page .content-wrap .entry-footer .button-wrap,
+.archive.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-footer .button-wrap,
+.archive.list-layout-2 .site-main .post .content-wrap .entry-footer .button-wrap,
+.blog.list-layout-2 .site-main .page .content-wrap .entry-footer .button-wrap,
+.blog.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-footer .button-wrap,
+.blog.list-layout-2 .site-main .post .content-wrap .entry-footer .button-wrap {
+  border-bottom: 0;
+  margin-bottom: 40px;
+  padding-bottom: 0;
+}
+.search.list-layout-2 .site-main .page .content-wrap .entry-header .entry-title,
+.search.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-header .entry-title,
+.search.list-layout-2 .site-main .post .content-wrap .entry-header .entry-title,
+.archive.list-layout-2 .site-main .page .content-wrap .entry-header .entry-title,
+.archive.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-header .entry-title,
+.archive.list-layout-2 .site-main .post .content-wrap .entry-header .entry-title,
+.blog.list-layout-2 .site-main .page .content-wrap .entry-header .entry-title,
+.blog.list-layout-2 .site-main .blossom-portfolio .content-wrap .entry-header .entry-title,
+.blog.list-layout-2 .site-main .post .content-wrap .entry-header .entry-title {
+  margin-top: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
