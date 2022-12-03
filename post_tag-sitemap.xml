@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//forcastvip.local/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://forcastvip.com/tag/agadir/</loc>
+		<loc>https://rainbow-sprinkles-7cfebd.netlify.app/tag/agadir/</loc>
 		<lastmod>2022-12-03T19:46:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://forcastvip.com/tag/city/</loc>
+		<loc>https://rainbow-sprinkles-7cfebd.netlify.app/tag/city/</loc>
 		<lastmod>2022-12-03T19:46:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://forcastvip.com/tag/doha/</loc>
+		<loc>https://rainbow-sprinkles-7cfebd.netlify.app/tag/doha/</loc>
 		<lastmod>2022-12-03T19:27:25+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://forcastvip.com/tag/morocco/</loc>
+		<loc>https://rainbow-sprinkles-7cfebd.netlify.app/tag/morocco/</loc>
 		<lastmod>2022-12-03T19:46:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://forcastvip.com/tag/qatar/</loc>
+		<loc>https://rainbow-sprinkles-7cfebd.netlify.app/tag/qatar/</loc>
 		<lastmod>2022-12-03T19:27:25+00:00</lastmod>
 	</url>
 </urlset>

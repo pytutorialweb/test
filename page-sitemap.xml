@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//forcastvip.local/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://forcastvip.com/</loc>
+		<loc>https://rainbow-sprinkles-7cfebd.netlify.app/</loc>
 	</url>
 	<url>
-		<loc>https://forcastvip.com/sample-page/</loc>
+		<loc>https://rainbow-sprinkles-7cfebd.netlify.app/sample-page/</loc>
 		<lastmod>2022-12-03T01:48:09+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://forcastvip.com/about-us/</loc>
+		<loc>https://rainbow-sprinkles-7cfebd.netlify.app/about-us/</loc>
 		<lastmod>2022-12-03T19:59:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://forcastvip.com/privacy-policy-2/</loc>
+		<loc>https://rainbow-sprinkles-7cfebd.netlify.app/privacy-policy-2/</loc>
 		<lastmod>2022-12-03T20:00:55+00:00</lastmod>
 	</url>
 </urlset>
